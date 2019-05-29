@@ -1,7 +1,7 @@
 {
-  "name": "bigbosssalute",
+  "name": "peggle2",
   "version": "1.0.0",
-  "description": "In memory of a patriot who saved the world.",
+  "description": "Peggle... 2!",
   "main": "bot.js",
   "scripts": {
     "start": "mode bot.js"
