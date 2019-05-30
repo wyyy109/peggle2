@@ -9,7 +9,7 @@ bot.on('message', function(message){
 });
 
 bot.on('message', function(message){
-    if(message.toLowerCase.content.endsWith('two!'))
+    if(message.content.toLowerCase().endsWith('two!'))
     {
         message.channel.send({files: ["https://i.imgur.com/5VLqjJx.gif"]});
     }
