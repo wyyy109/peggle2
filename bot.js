@@ -6,10 +6,7 @@ bot.on('message', function(message){
     {
         message.channel.send({files: ["https://i.imgur.com/5VLqjJx.gif"]});
     }
-});
-
-bot.on('message', function(message){
-    if(message.content.toLowerCase().endsWith('two!'))
+    else if(message.content.toLowerCase().endsWith('two!'))
     {
         message.channel.send({files: ["https://i.imgur.com/5VLqjJx.gif"]});
     }
